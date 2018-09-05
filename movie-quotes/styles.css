@@ -1,0 +1,38 @@
+body {
+	margin: 10 em;
+	font-family: arial; 
+}
+h1{
+	font-size: 5em;
+	color: #15959f;
+	line-height: 10px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0.5em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 5px;
+}
+
+li {
+	font-size: 1.5em;
+}
+
+p{
+	font-size: 18px;
+	line-height: 2em;
+}
+.lead-in {
+	line-height: 1em;
+
+}
+.secondary{
+	font-style: italic;
+	font-family: Georgia
+}
+
+#callout {
+	color: green;
+}

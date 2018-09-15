@@ -1,0 +1,41 @@
+body {
+	margin: 6 em;
+	background-color: #efefed;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+h1 {
+	color: #0935a0;
+	font-size: 8em;
+	font-weight: bold;
+	line-height: -4em;
+	text-transform: uppercase;
+}
+h2 {
+	color: #0935a0;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: -1em;
+}
+h3{
+	text-decoration: underline;
+}
+
+li {
+	font-size: 1.5em;
+}
+
+p{
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+.lead-in {
+	line-height: 2em;
+}
+.secondary{
+	font-style: italic;
+}
+
+#callout {
+	color: green;
+}

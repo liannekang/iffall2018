@@ -1,0 +1,50 @@
+body{
+	font-family: Oswald, serif;
+	margin-top: 10px;
+}
+h1{
+	font-family: Oswald, serif;
+	font-size:80px;
+	margin-top: 20px;
+}
+p{
+	font-size: 24px;
+	line-height: 30px;
+}
+.first{
+	font-size: 30px;
+	color: #bfbfbf ;
+}
+.second{
+	color: #bfbfbf;
+	font-size: 15px;
+	line-height: 5px;
+}
+.third{
+	line-height: 20px;
+	font-size: 18px;
+}
+.fourth{
+	letter-spacing: 0.3em;
+}
+.letter-spacing{
+	letter-spacing: -0.6em;
+}
+.underline{
+	text-decoration: underline;
+}
+.line-through{
+	text-decoration: line-through;
+}
+.overline{
+	text-decoration: overline;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.lowercase{
+	text-transform: lowercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}

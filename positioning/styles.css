@@ -1,0 +1,39 @@
+section{
+	position: relative;
+}
+
+.aside1{
+	background-color: #aaa;
+	float: right;
+}
+
+.aside2{
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #aaa;
+}
+
+.aside3{
+	background-color: green;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+.aside4{
+	display: block;
+	background-color: red;
+	position: absolute;
+	transform: translate(100%, 0%);
+	z-index: 5;
+}
+
+
+.aside5{
+	background-color: black;
+	position: absolute;
+	transform: translate(104%, 5%);
+}
+

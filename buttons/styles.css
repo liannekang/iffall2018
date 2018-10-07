@@ -1,0 +1,645 @@
+
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#main_content {
+	margin: 40px;
+}
+
+h1 {
+ 	font-size: 30px;
+ 	margin-bottom: 40px;
+}
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+a#btn_spotify {
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #2ebd59;
+	border: 2px solid #2ebd59;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_spotify:hover {
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+}
+
+a#btn_twitter {
+	display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #56cdf1;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_twitter:hover {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+	background: #2ebfec; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+}
+
+
+a#btn_amazon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin: auto;
+	margin-top: 75px;
+	padding-top: 8px;
+	background-color: #232f3e;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+}
+
+a#btn_amazon:hover {
+	background-color: #fc9a18;
+}
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+	background-color: #eb1478;
+}
+
+
+a#btn_cocacola{
+	display: inline-block;
+	margin-top: 75px;
+	width: 200px;
+	height: 116px;
+}
+
+a#btn_cocacola:hover {
+	transform: scale(1.5);
+	transition: 1.5s;
+}
+
+a#btn_apple{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 60px;
+}
+
+a#btn_apple:hover{
+	color: lightpink;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+a#btn_ibm{
+	display: block;
+	margin-top: 100px;
+}
+
+a#btn_ibm:hover{
+	animation: bounce 1s;
+	transition: 0.5s;
+}
+
+a#btn_nerf{
+	display: block;
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 180px;
+	height: 130px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/16/Nerf_logo.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a#btn_nerf:hover{
+	background-image: url(https://cdn.shopify.com/s/files/1/0941/8552/products/Nerf-Logo-_Converted.jpg?v=1530022449);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+a#btn_harleydavidson{
+	display: block;
+	margin-top: 70px;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+a#btn_harleydavidson:hover {
+	border-radius: 50%;
+	-webkit-transform: rotate(-360deg);
+	-moz-transform: rotate(-360deg);
+	-o-transform: rotate(-360deg);
+	-ms-transform: rotate(-360deg);
+	transform: rotate(-360deg);
+}
+
+a#btn_mk{
+	display: block;
+	margin-top: 60px;
+	box-sizing: border-box;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a#btn_mk:hover{
+	-webkit-filter: blur(3px);
+}
+
+a#btn_ideo{
+	display: block;
+	width: 250px;
+	height: 100px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image{
+	float: left;
+	margin: 0px 0px 10px 10px;
+}
+#i:hover{
+	animation: bounce 1s;
+	transition: 0.5s;
+}
+
+#d:hover{
+	animation: bounce 1s;
+	transition: 0.5s;
+}
+
+#e:hover{
+	animation: bounce 1s;
+	transition: 0.5s;
+}
+
+#o:hover{
+	animation: bounce 1s;
+	transition: 0.5s;
+}
+
+a#btn_insta{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 100px;
+	margin-top: 60px;
+}
+
+a#btn_insta:hover{
+	color: blue;
+}
+
+a#btn_craigs{
+	font-family: 'Lora', serif;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin-top: 100px;
+	display: block;
+}
+
+a#btn_craigs:hover{
+	text-decoration: underline;
+}
+
+a#btn_lyft{
+	display: inline-block;
+	height: 50px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px 40px 0 40px;
+	background-color: #fff;
+	border: 2px solid #EA0B8C;
+	color: #EA0B8C;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#btn_lyft:hover{
+	transition: 0.8s;
+	border-radius: 25px;
+	background-color: #EA0B8C;
+	border: 2px solid #EA0B8C;
+	color: #fff;
+}
+
+a#btn_samsung{
+	display: block;
+	margin-top: 100px;
+}
+
+a#btn_samsung:hover {
+	transform: scale(0.5);
+	transition: 1.5s;
+}
+
+a#btn_dime{
+	display: block;
+	margin-top: 55px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+a#btn_dime:hover{
+	border-radius: 50%;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+a#btn_cn{
+	display: block;
+	width: 250px;
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 30px;
+
+
+}
+
+.image2{
+	display: block;
+	float: left;
+	margin: 0px 0px 10px 10px;
+}
+
+#c{
+	display: block;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 60px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+#c:hover{
+	-webkit-transform: rotate(-45deg) scale(0.75);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg) scale(0.75);
+
+}
+a#btn_biss{
+	display: block;
+	margin-top: 50px;
+}
+
+a#btn_biss:hover{
+	animation: spin 2s cubic-bezier(0.3, 0.5, 0.3, 0.8) infinite;
+}
+@keyframes spin {
+	from { transform:rotateY(0); }
+	to { transform:rotateY(360deg); }
+}
+
+a#btn_ofa{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	color: white;
+	transform: translateY(100%);
+	margin-top: 50px;
+	font-size: 40px;
+	margin-left: 80px;
+	width: 100px;
+	height: 50px;
+	background-color: #33cccc;
+	padding-bottom: 4px;
+}
+
+a#btn_ofa:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: block;
+	color: #33cccc;
+	background-color: white;
+	transition: all 0.5s ease;
+}
+
+
+a#btn_nbc{
+	display: block;
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 180px;
+	height: 130px;
+	background-image: url(nbc_b.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a#btn_nbc:hover{
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 180px;
+	height: 130px;
+	background-image: url(nbc_c.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: black;
+	transition: all 0.05s ease;
+}
+
+a#btn_nike{
+	display: block;
+	margin-top: 100px;
+}
+
+a#btn_nike:hover{
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+	transform: translate3d(0,0,0);
+	backface-visibility: hidden;
+	perspective: 1000px;
+}
+
+@keyframes shake{
+	10%, 90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%, 80% {
+		transform: translate3d(2px, 0, 0);
+	}
+	30%, 50%, 70%{
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%, 60%{
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+a#btn_color{
+	display: block;
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 180px;
+	height: 130px;
+	background-image: url(color.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a#btn_color:hover {
+	animation: spin 2s cubic-bezier(0.3, 0.5, 0.3, 0.8) infinite;
+}
+
+@keyframes spin {
+	from { transform:rotateY(0); }
+	to { transform:rotateX(360deg); }
+}
+
+a#btn_on{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-decoration: none;
+	color: navy;
+	font-size: 35px;
+	margin-top: 105px;
+	display: block;
+}
+
+a#btn_on:hover{
+	color: white;
+	background-color: navy;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
+
+a#btn_hsn{
+	display: block;
+	margin-left: 40px;
+	margin-top: 60px;
+	width: 180px;
+	height: 130px;
+	background-image: url(hsn_c.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a#btn_hsn:hover{
+	background-image: url(hsn_i.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition-duration: 0.2s;
+}
+
+
+a#btn_ny{
+	display: block;
+	margin-left: 55px;
+	margin-top: 100px;
+	width: 150px;
+	height: 50px;
+	background-image: url(ny_t.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+a#btn_ny:hover{
+	transition: 1s;
+        box-shadow:
+                2px 2px #A6ACAF,
+                4px 4px #626567,
+                6px 6px black;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+
+
+a#btn_fitbit{
+	display: block;
+	margin-left: 55px;
+	margin-top: 60px;
+	width: 150px;
+	height: 150px;
+	background-image: url(fit_w.png);
+}
+
+a#btn_fitbit:hover{
+	background-image: url(fit_g.png);
+	transition-duration: 0.3s;
+}
+
+
+
+a#btn_moo{
+	display: block;
+	margin-left: 60px;
+	margin-top: 60px;
+	width: 150px;
+	height: 150px;
+	background-image: url(moo.png);
+}
+
+a#btn_moo:hover{
+	background-image: url(moo_t.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	transition-duration: 0.5s;
+
+}
+
+a#btn_vel{
+	display: block;
+	margin-left: 40px;
+	margin-top: 80px;
+	width: 180px;
+	height: 130px;
+	-webkit-filter: blur(3px);
+}
+
+a#btn_vel:hover{
+	-webkit-filter: blur(0px);
+	transition-duration: 0.5s;
+}
+
+
+a#btn_face{
+	display: block;
+	margin-left: 55px;
+	margin-top: 60px;
+	width: 150px;
+	height: 150px;
+	background-image: url(face_c.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+a#btn_face:hover{
+	 background-image: url(face_thumb.png);
+	 transition-duration: 0.3s;
+	 position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: 3; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:white; left:20px; top:0px;}
+    50%  {background-color:white; left:20px; top:20px;}
+    75%  {background-color:white; left:0px; top:20px;}
+    100% {background-color:white; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:white; left:20px; top:0px;}
+    50%  {background-color:white; left:20px; top:20px;}
+    75%  {background-color:white; left:0px; top:20px;}
+    100% {background-color:white; left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

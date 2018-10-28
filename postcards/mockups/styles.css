@@ -1,0 +1,40 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin-left: 100px;
+	width: 800px;
+}
+.large{
+/*		border: solid black 1px;*/
+		display: inline-block;
+
+}
+h4{
+	margin-top: 4px;
+}
+
+img{
+	display: inline-block;
+}
+
+.list1{
+/*	border: solid black 1px;*/
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 400px;
+	margin-left: 100px;
+}
+
+h3{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.list2{
+/*	border: solid black 1px;*/
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-left: 30px;
+}

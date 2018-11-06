@@ -1,0 +1,93 @@
+a{
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+	width: 100%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	width: 100%;
+}
+/*
+.box{
+	margin-left: 0;
+	width: 100%;
+}
+
+img{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+
+.textbox{
+	width: 250px;
+	display: block;
+	margin-top: 100px;
+	margin-left: 250px;
+	position: relative;
+	transform: translateY(-320px);
+}
+
+h1{
+	font-size: 15pt;
+	letter-spacing: 0.1px;
+	color: white;
+
+}*/
+
+
+.textbox{
+
+display: block;
+margin-bottom: 20px;
+margin-left: 38%;
+padding-right: 10px;
+position: absolute;
+transform: translateY(-650px);
+background-color: white;
+opacity: 0.6;
+border-radius: 25px;
+
+}
+
+h1{
+font-size: 15pt;
+letter-spacing: 0.1px;
+color: black;
+padding-left: 18px;
+}
+
+
+@media only screen and (min-width: 800px) {
+	.textbox{
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 44%;
+
+	position: absolute;
+	transform: translateY(-450px);
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 25px;
+	width: 42%;
+	}
+
+	h1{
+		font-size: 35pt;
+		letter-spacing: 0.1px;
+		color: black;
+		padding-left: 18px;
+	}
+}
+
+
+
+
+
+

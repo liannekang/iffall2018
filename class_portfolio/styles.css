@@ -1,0 +1,37 @@
+body{
+	background-color: #e0ebeb;
+	font-family: 'Slabo 27px', serif;
+	text-align: center;
+	color: black;
+}
+
+section{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+
+h3{
+	margin-top: 40px;
+	text-decoration: underline;
+	color: black;
+}
+
+p{
+	text-decoration: underline;
+	color: black;
+}
+
+
+.portfolio_image img{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+
+}
+
+.portfolio_image img: hover{
+	opacity: 0.3;
+	
+}
